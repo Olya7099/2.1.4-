@@ -18,7 +18,7 @@ public class AppConfig {
         return new Island2(wood);
     }
     @Bean
-    public Egg6 getEgg(Needle7 needle) {  // Spring автоматически внедрит Needle7
+    public Egg6 getEgg(Needle7 needle) {
         return new Egg6(needle);
     }
 }
